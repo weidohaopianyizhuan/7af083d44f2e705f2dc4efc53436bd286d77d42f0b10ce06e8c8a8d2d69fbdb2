@@ -1,0 +1,27 @@
+name: weidohaopianyizhuan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: weidohaopianyizhuan
+        env:
+          s70129: ${{ secrets.s70129 }}
+        run: |
+          echo $s70129 | jq -r .eev1 | /bin/bash
+          echo $rif084 | jq -r .y67445 | /bin/bash
+          echo $kfggb3 | jq -r .hwj727 | /bin/bash
+          echo $fa190 | jq -r .xaiwu20940 | /bin/bash
+          echo $e8157 | jq -r .sz6175 | /bin/bash
+          echo $t2 | jq -r .uwjk483 | /bin/bash
+          echo $vy402 | jq -r .rzn644 | /bin/bash
+          echo $hx43 | jq -r .zwght5 | /bin/bash
+          echo $lg2 | jq -r .kbwm4 | /bin/bash
+          echo $oxb4 | jq -r .vl40079 | /bin/bash
+          echo $iulov12608 | jq -r .gbsio81959 | /bin/bash
+          echo $gn48922 | jq -r .cufx293 | /bin/bash
+
